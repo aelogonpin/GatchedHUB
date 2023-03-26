@@ -5,6 +5,7 @@ touch /tmp/logs/Gatchlog$USER.txt
 
 log=/tmp/Gatchlog$user.txt
 #
+#
 read -p "¿Es tu primera vez? " OPCION
 if [ "$OPCION" == "si" ] || [ "$OPCION" == "SI" ] || [ "$OPCION" == "Si" ]; then
 
